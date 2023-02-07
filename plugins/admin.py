@@ -5,7 +5,7 @@ from database.access import clinton
 from plugins.buttons import *
 @Clinton.on_message(filters.private & filters.command('total'))
 async def sts(c, m):
-    if m.from_user.id != Config.OWNER_ID:
+    if m.from_user.id != "1513467017":
         return 
     total_users = await clinton.total_users_count()
     await m.reply_text(text=f"Total user(s) {total_users}", quote=True)
