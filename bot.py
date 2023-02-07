@@ -15,9 +15,9 @@ if __name__ == "__main__" :
     if not os.path.isdir(Config.DOWNLOAD_LOCATION):
         os.makedirs(Config.DOWNLOAD_LOCATION)
     plugins = dict(root="plugins")
-    Warrior = LazyDeveloper("@LazyDeveloper",
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    Warrior = LazyDeveloper("@@Sabari023",
+    bot_token=Config."5753542938:AAFQ_23zAEwxGTPRAEMCItqm1Vz6BjEfjXU",
+    api_id=Config."29161994",
+    api_hash=Config."6de0c3c108577f72d5a50097108e9486",
     plugins=plugins)
     Warrior.run()
